@@ -1,0 +1,16 @@
+.cabecalho {
+    background-color: #ADDE87;
+    text-align: center;
+    background-image: url('../img/SALE.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+}
+
+.cabecalho img {
+    width: auto;
+    height: 210px;
+    max-height: 210px;
+}

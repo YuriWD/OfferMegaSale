@@ -1,0 +1,219 @@
+@media only screen and (max-width: 1050px) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cabecalho {
+        padding-top: 100px;
+
+    }
+
+    .cabecalho img {
+        max-width: 100%;
+    }
+
+    .conteudo .mainform .productsform {
+        padding: 0;
+    }
+
+    .conteudo .corpo_produtos {
+        padding: 28px 33px;
+    }
+
+    .conteudo .corpo_produtos .produto {
+        margin: 0;
+        width: cal(50% - 20px);
+        margin: 10px;
+    }
+
+    .conteudo .corpo_produtos .produto img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .rodape {
+        justify-content: center;
+    }
+
+    .rodape .newslatter {
+        flex-direction: column;
+    }
+
+    .rodape .newslatter .links li {
+        margin-top: 33px;
+        margin-bottom: 54px;
+    }
+
+    .rodape .newslatter .formlinks {
+        justify-content: center;
+    }
+
+    .rodape .infofooter {
+        padding: 27px 30px;
+    }
+
+    .rodape .infofooter .socialmedia {
+        padding: 0;
+    }
+
+    .rodape .infofooter .payments {
+        padding: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 880px) {
+    .navbar .centerbutton {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .rodape .newslatter .formlinks .emailform {
+        flex-direction: column;
+        justify-content: center;
+        width: 410px;
+    }
+
+    .rodape .newslatter .formlinks .emailform .email {
+        font-size: 15px;
+        max-width: 397px;
+    }
+
+    .rodape .newslatter .formlinks .emailform .buttonsubimit {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+  
+}
+
+@media only screen and (max-width: 500px) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar .centerbutton {
+        display: none;
+    }
+
+    .cabecalho {
+        padding-top: 100px;
+
+    }
+
+    .cabecalho img {
+        max-width: 100%;
+    }
+
+    .conteudo .mainform .productsform {
+        padding: 0;
+    }
+
+
+    .conteudo .corpo_produtos {
+        padding: 28px 33px;
+        gap: 97px
+    }
+
+    .conteudo .corpo_produtos .produto {
+        margin: 0;
+        width: 125px;
+    }
+
+    .conteudo .corpo_produtos .produto img {
+        max-width: 100%;
+    }
+
+    .conteudo .corpo_produtos .produto .descricao {
+        font-size: 12px;
+    }
+
+    .conteudo .corpo_produtos .produto .valorproduto {
+        font-size: 14px;
+    }
+
+    .conteudo .corpo_produtos .produto .cifrao {
+        font-size: 12px;
+    }
+
+    .rodape {
+        display: inline-block;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .rodape .newslatter {
+        flex-direction: column;
+    }
+
+    .rodape .newslatter .links li {
+        margin-top: 33px;
+        margin-bottom: 54px;
+        margin-left: -110px;
+
+    }
+
+    .rodape .newslatter .formlinks {
+        justify-content: center;
+    }
+
+    .rodape .newslatter .formlinks .emailform {
+        flex-direction: column;
+        justify-content: center;
+        width: 410px;
+    }
+
+    .rodape .newslatter .formlinks .emailform .email {
+        font-size: 15px;
+        max-width: 397px;
+    }
+
+    .rodape .newslatter .formlinks .emailform .buttonsubimit {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .rodape .infofooter {
+        padding: 27px 30px;
+    }
+
+    .rodape .infofooter .socialmedia {
+        padding: 0;
+    }
+
+    .rodape .infofooter .payments {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+ 
+    .rodape .newslatter .links li {
+        justify-content: center;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .rodape .newslatter .formlinks .type{
+       display: none;
+    }
+
+    .rodape .newslatter .formlinks .emailform .email {
+        font-size: 15px;
+        text-align: center;
+        max-width: 235px;
+    }
+
+    .rodape .newslatter .formlinks .emailform .buttonsubimit {
+        width: 250px;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

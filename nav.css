@@ -1,0 +1,41 @@
+.navbar {
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.navbar .centerbutton {
+    display: flex;
+    justify-content: space-between;
+    width: 393px;
+}
+
+.navbar .centerbutton li {
+    position: relative;
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .centerbutton li a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.navbar .centerbutton li.textbutton::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 33px;
+    height: 1.92px;
+    background-color: #5CA720;
+}
+
+.navbar .rightbutton {
+    display: flex;
+    justify-content: space-between;
+    width: 138.091px;
+}

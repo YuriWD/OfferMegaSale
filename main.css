@@ -1,0 +1,51 @@
+.conteudo .mainform .productsform {
+    display: flex;
+    padding: 34px 0 32px 69px;
+    align-items: center;
+    border-bottom: 1px solid #A5A1A1;
+}
+
+.conteudo .mainform .productsform h1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.conteudo .mainform .productsform .filtragem {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 26px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.conteudo .corpo_produtos {
+    display: flex;
+    padding: 57px 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteudo .corpo_produtos .produto {
+    margin: 0 97px;
+}
+
+.conteudo .corpo_produtos .produto .descricao {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 23px;
+    margin-bottom: 11px;
+}
+
+.conteudo .corpo_produtos .produto .valorproduto {
+    font-size: 25px;
+    color: #5CA720;
+    font-weight: bold;
+    margin-bottom: 65px;
+}
+
+.conteudo .corpo_produtos .produto .cifrao {
+    font-size: 20px;
+    color: #161616;
+}
